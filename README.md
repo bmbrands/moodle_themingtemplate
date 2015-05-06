@@ -1,24 +1,34 @@
 
 # Bootstrap Theming Template
 
-* package   Moodle Bootstrap 3 theming template
+* Moodle Bootstrap 3 theming template
 * copyright 2015 Bas Brands. www.sonsbeekmedia.nl
-* author    Bas Brands
-* license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+* by Bas Brands
+* license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
 
 ## About this template
-This template has been created for the 2015 Moodle Moot theming workshop. It can be used to customize Moodle HTML and CSS without having to install Moodle on your machine. This template is based on:
+This template has been created for the 2015 Moodle Moot theming workshop. It can be used to customize Moodle HTML and CSS without having to install Moodle on your machine. Warning: You can not use this template as a real Moodle theme! It was created to provide an easy and quick way of creating a theme mockup.
+
+This template is based on:
 
 Moodle version 2.8
+
 Bootstrap version 3.2
 
 ## How to use this template
 Simply download the zipfile from this location:
 https://github.com/bmbrands/moodle_themingtemplate/archive/master.zip
 
-Unzip it somewhere on your computer. Then click the home.html file, it should open in your default browser. If it looks somewhat like this you are fine:
+Unzip it somewhere on your computer. Then click the home.html file, it should open in your default browser. If it looks somewhat like this you are ready to go.
 
 ![Image of template](https://github.com/bmbrands/moodle_themingtemplate/blob/master/images/screenshot.png)
+
+The first place to start customizing your template is using css/custom.css file. Use your code editor to add or override any Moodle css.
+
+If you want to change the page structure have a look at the .html files in your "root" folder.
+
+If you want to add sliders, caroussels, popups, modals use the code examples provided on http://getbootstrap.com/javascript/
+
 
 ## Template content
 This template contains:
