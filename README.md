@@ -21,7 +21,7 @@ https://github.com/bmbrands/moodle_themingtemplate/archive/master.zip
 
 Unzip it somewhere on your computer. Then click the home.html file, it should open in your default browser. If it looks somewhat like this you are ready to go.
 
-![Image of template](https://github.com/bmbrands/moodle_themingtemplate/blob/master/images/screenshot.png)
+![Image of template](https://github.com/bmbrands/moodle_themingtemplate/blob/master/images/screenshottemplate.png)
 
 The first place to start customizing your template is using css/custom.css file. Use your code editor to add or override any Moodle css.
 
