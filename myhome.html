@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- Notice I have added ng-app to this document. 
+    This is required for this template only. It id not standard Moodle! -->
+<html class="yui3-js-enabled" dir="ltr" xml:lang="en" lang="en" ng-app="">
+<div class="" id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important"></div>
+<head>
+    <title>Moodle Home</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content="moodle, MOODLE Template">
+
+    <link href="css/yui_combo_002.css" id="" rel="stylesheet" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/yui_combo.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <script type="text/javascript" src="javascript/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="javascript/bootstrap.js"></script>
+    <script type="text/javascript" src="javascript/angular.min.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+</head>
+
+<body id="page-my-index" class="format-site  path-my gecko dir-ltr lang-en yui-skin-sam yui3-skin-sam lborg-sonsbeekmedia-nl pagelayout-mydashboard course-1 context-1 theme has-region-content used-region-content has-region-side-pre used-region-side-pre has-region-side-post used-region-side-post layout-option-langmenu jsenabled">
+
+<div class="skiplinks"><a class="skip" href="#maincontent">Skip to main content</a></div>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+<!-- Start of the Moodle top navigation bar. This uses bootstrap styling explained here: http://getbootstrap.com/components/#navbar -->
+<nav role="navigation" class="navbar navbar-default">
+    <!-- Content Loaded by Angular.js -->
+    <div ng-include="'partials/shared/navbar.html'"></div>
+</nav>
+<!-- En of the Moodle top navigation bar -->
+
+<header class="moodleheader">
+    <div class="container-fluid">
+        <a class="logo" href="myhome.html"></a>
+
+        <h1>Moodle: My home</h1>
+    </div>
+</header>
+
+<div class="container-fluid" id="page">
+    <header class="clearfix" id="page-header">
+        <div class="clearfix" id="page-navbar">
+            <nav class="breadcrumb-nav">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="home.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="myhome.html">My
+                        home</a>
+                    </li>
+                </ol>
+            </nav>
+
+            <div class="breadcrumb-button">
+                <div class="singlebutton">
+                    <form action="myhome.html"
+                    method="post">
+                        <div>
+                            <input type="submit" value=
+                            "Customise this page"><input name="edit" type=
+                            "hidden" value="1"><input name="sesskey" type=
+                            "hidden" value="xq0T5t3rcm">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="breadcrumb-button">
+                <a class="btn btn-default pull-right moodlezoom" href=
+                "#"><span class="zoomin">Full screen</span><span class=
+                "zoomout">Close full screen</span></a>
+            </div>
+        </div>
+
+        <div id="course-header"></div>
+    </header>
+    <div id="page-content" class="row">
+        <div class="col-sm-6 col-sm-push-3 col-lg-8 col-lg-push-2" id="region-main">
+            <div>
+                <span id="maincontent"></span>
+
+                <aside class="block-region" data-blockregion="content" data-droptarget=
+                "1" id="block-region-content">
+                    <div ng-include="'partials/myhome/blockscenter.html'"></div>
+                </aside>
+            </div>
+        </div>
+        <aside class="col-sm-3 col-sm-pull-6 col-lg-2 col-lg-pull-8 block-region"
+        data-blockregion="side-pre" data-droptarget="1" id="block-region-side-pre">
+            <!-- Content Loaded by Angular.js -->
+           <div ng-include="'partials/myhome/blocksleft.html'"></div>
+        </aside>
+
+        <aside class="col-sm-3 col-lg-2 block-region" data-blockregion="side-post"
+        data-droptarget="1" id="block-region-side-post">
+            <!-- Content Loaded by Angular.js -->
+           <div ng-include="'partials/myhome/blocksright.html'"></div>
+        </aside>
+    </div>
+    <footer id="page-footer">
+        <div id="course-footer"></div>
+
+        <p class="helplink"><a href=
+        "http://docs.moodle.org/28/en/my/index"><img alt="" class=
+        "iconhelp icon-pre" src=
+        ""
+        title="">Moodle Docs for this page</a></p>
+
+        <div class="logininfo">
+            You are logged in as <a href=
+            "" title=
+            "View profile">Moodle Admin</a> (<a href=
+            "">Log
+            out</a>)
+        </div>
+
+        <div class="homelink">
+            <a href="myhome.html">Home</a>
+        </div>
+    </footer>
+    <script type="text/javascript" src="javascript/template.js"></script>
+</div>
+</body></html>

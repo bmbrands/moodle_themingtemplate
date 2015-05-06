@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!-- Notice I have added ng-app to this document. 
+    This is required for this template only. It id not standard Moodle! -->
+<html class="yui3-js-enabled" dir="ltr" xml:lang="en" lang="en" ng-app="">
+<div class="" id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important"></div>
+<head>
+    <title>Course: English: The Lake Poets</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content="moodle, Course: English: The Lake Poets">
+
+    <link href="css/yui_combo_002.css" id="" rel="stylesheet" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/yui_combo.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <script type="text/javascript" src="javascript/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="javascript/bootstrap.js"></script>
+    <script type="text/javascript" src="javascript/angular.min.js"></script>
+    <script type="text/javascript" src="javascript/angular-route.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+</head>
+
+<body id="page-course-view-topics" class="format-topics path-course path-course-view gecko dir-ltr lang-en yui-skin-sam yui3-skin-sam aalborg-sonsbeekmedia-nl pagelayout-course course-5 context-121 category-4 theme nozoom has-region-side-pre used-region-side-pre has-region-side-post used-region-side-post layout-option-langmenu jsenabled">
+
+<div class="skiplinks"><a class="skip" href="#maincontent">Skip to main content</a></div>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+<!-- Start of the Moodle top navigation bar. This uses bootstrap styling explained here: http://getbootstrap.com/components/#navbar -->
+<nav role="navigation" class="navbar navbar-default">
+    <div ng-include="'partials/shared/navbar.html'"></div>
+</nav>
+<!-- En of the Moodle top navigation bar -->
+
+
+<header class="moodleheader">
+    <div class="container-fluid">
+    <a href="home.html" class="logo"></a>
+    <h1>English: The Lake Poets</h1>    </div>
+</header>
+
+<div id="page" class="container-fluid">
+    <header class="clearfix" id="page-header">
+        <div class="clearfix" id="page-navbar">
+            <nav class="breadcrumb-nav">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="home.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="myhome.html">My courses</a>
+                    </li>
+
+                    <li>
+                        <a href="course.html">Category Name</a>
+                    </li>
+
+                    <li>
+                        <a href="course.html">Subcategory Name</a>
+                    </li>
+
+                    <li>
+                        <a href="course.html" title=
+                        "English: The Lake Poets">SSE1: Lake Poets</a>
+                    </li>
+                </ol>
+            </nav>
+
+            <div class="breadcrumb-button">
+                <div class="singlebutton">
+                    <form action="course.html" method="post">
+                        <div>
+                            <input type="submit" value=
+                            "Turn editing on"><input name="id" type="hidden" value=
+                            "5"><input name="sesskey" type="hidden" value=
+                            "DfLgTeNn6P"><input name="edit" type="hidden" value=
+                            "on">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="breadcrumb-button">
+                <a class="btn btn-default pull-right moodlezoom" href=
+                "#"><span class="zoomin">Full screen</span><span class=
+                "zoomout">Close full screen</span></a>
+            </div>
+        </div>
+
+        <div id="course-header"></div>
+    </header>
+
+    <div id="page-content" class="row">
+        
+        <!-- This is the main content region markup. -->
+        <div id="region-main" class="col-sm-6 col-sm-push-3 col-lg-8 col-lg-push-2">
+        
+            <div ng-include="'partials/course/coursecontent.html'"></div>
+        
+        </div>
+        <!-- End of main region markup. -->
+
+        <!-- Left block region -->
+        <aside class="col-sm-3 col-sm-pull-6 col-lg-2 col-lg-pull-8 block-region"
+        data-blockregion="side-pre" data-droptarget="1" id="block-region-side-pre">
+            <div ng-include="'partials/course/blocksleft.html'"></div>
+        </aside>
+        <!-- End of left block region -->
+
+        <!-- Right block region -->
+        <aside class="col-sm-3 col-lg-2 block-region" data-blockregion="side-post"
+        data-droptarget="1" id="block-region-side-post">
+            <div ng-include="'partials/course/blocksright.html'"></div>
+           
+        </aside>
+        <!-- End of right block region -->
+    </div>
+
+    <footer id="page-footer">
+        <div id="course-footer"></div>
+
+        <p class="helplink"><a href=
+        "http://docs.moodle.org/28/en/course/view/topics"><img alt="" class=
+        "iconhelp icon-pre" src="images/docs.svg" title="">Moodle Docs for this
+        page</a></p>
+
+        <div class="logininfo">
+            You are logged in as <a href="user/profile.php?id=2" title=
+            "View profile">Moodle Admin</a> (<a href="course.html">Log out</a>)
+        </div>
+
+        <div class="homelink">
+            <a href="">Home</a>
+        </div>
+    </footer>
+    <script type="text/javascript" src="javascript/template.js"></script>
+</div>
+
+</body></html>
