@@ -19,6 +19,9 @@ Bootstrap version 3.2
 Simply download the zipfile from this location:
 https://github.com/bmbrands/moodle_themingtemplate/archive/master.zip
 
+To work using this template on a windows machine you need a local webserver. I recommend using Mongoose as a local webserver if you have not configured and setup up a local webserver already.
+You can download the lightweight Mongoose webserver from: https://code.google.com/p/mongoose
+
 Unzip it somewhere on your computer. Then click the home.html file, it should open in your default browser. If it looks somewhat like this you are ready to go.
 
 ![Image of template](https://github.com/bmbrands/moodle_themingtemplate/blob/master/images/screenshottemplate.png)
